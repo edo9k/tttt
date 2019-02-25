@@ -1,22 +1,22 @@
 body {
   font: 14 px "Century Gothic",
   Futura,
-  sans - serif;
+  sans-serif;
   margin: 20 px;
 }
 
 ol, ul {
-  padding - left: 30 px;
+  padding-left: 30 px;
 }
 
-.board - row: after {
+.board-row: after {
     clear: both;
     content: "";
     display: table;
   }
 
   .status {
-    margin - bottom: 10 px;
+    margin-bottom: 10 px;
   }
 
   .square {
@@ -44,9 +44,9 @@ ol, ul {
 
   .game {
     display: flex;
-    flex - direction: row;
+    flex-direction: row;
   }
 
-  .game - info {
-    margin - left: 20 px;
+  .game-info {
+    margin-left: 20 px;
   }
